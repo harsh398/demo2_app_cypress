@@ -19,6 +19,14 @@ Harsharan Deep
 4. Run  `npm run test` - to Run Headless Test 
 5. Run `npm run open` to Open Cypress UI to run test in browser 
 
+## TestCases 
+
+1. FirstTestCase - Covers Changing Money Input , Duration , Purpose  , Sorting and Filtering and Making sure the changing paramters also changes the Search Result ( In this Sscript i am looking ofr a static Product which is 331 in production case i would rely on data provided )
+2. SecondTestCase - Covers Edge case - Where user provides null value and Unvailable duration and values get updated and get alert message 
+
+## Fixture File 
+1. Postive and Null Values are being provided using Fixture File 
+
 ## Jenkins 
 
 1. To Run Jenkins solution ( Node and Git should be installed and Path be should  be given properly) on your Jenkins Environment

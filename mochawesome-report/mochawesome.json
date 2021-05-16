@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-05-16T17:42:28.063Z",
-    "end": "2021-05-16T17:42:37.129Z",
-    "duration": 9066,
+    "start": "2021-05-16T17:46:54.157Z",
+    "end": "2021-05-16T17:47:00.431Z",
+    "duration": 6274,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d864bf6b-4c66-40f2-932e-fa1e44e8d924",
+      "uuid": "f24de50f-da24-4f6f-8e48-a2f270e3ee49",
       "title": "",
       "fullFile": "cypress\\integration\\SecondTestCase.spec.js",
       "file": "cypress\\integration\\SecondTestCase.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "cab375f8-7832-4a2d-86e9-6cb7c0cbde4d",
+          "uuid": "2aace4c9-b5c7-42e6-8f7e-b732352fd3ce",
           "title": "Check24 Demo App Automation ",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Executing Test Automation Suit ",
               "fullTitle": "Check24 Demo App Automation  Executing Test Automation Suit ",
               "timedOut": null,
-              "duration": 7817,
+              "duration": 5091,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.fixture('example').then(function (data) {\n  basePage.NullMoney(data.NullValue);\n});\nbasePage.UnavailableDuration();",
               "err": {},
-              "uuid": "fb4b3abf-11e9-4454-a435-f2f344e09b04",
-              "parentUUID": "cab375f8-7832-4a2d-86e9-6cb7c0cbde4d",
+              "uuid": "20be5d49-2bea-406b-ba54-e335cec13158",
+              "parentUUID": "2aace4c9-b5c7-42e6-8f7e-b732352fd3ce",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "fb4b3abf-11e9-4454-a435-f2f344e09b04"
+            "20be5d49-2bea-406b-ba54-e335cec13158"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7817,
+          "duration": 5091,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

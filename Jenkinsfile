@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Clone Git Repo'){
 				steps{
-					git branch: 'main', url: 'https://github.com/harsh398/demo_app_cypress.git'
+					git branch: 'main', url: 'https://github.com/harsh398/demo2_app_cypress.git'
 		    }
 		}
 		stage('Install Dependencies'){
