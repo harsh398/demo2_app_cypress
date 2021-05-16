@@ -1,0 +1,32 @@
+{
+  "name": "check24",
+  "version": "1.0.0",
+  "description": "This Automation test framework written Using Cypress with Page Objects Design pattern",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open ",
+    "test": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "1.5.0",
+    "cypress-real-events": "^1.4.0",
+    "cypress-waitfor": "^1.1.0",
+    "fs": "*",
+    "mochawesome": "^6.2.2",
+    "yarn": "^1.22.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

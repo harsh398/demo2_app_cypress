@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-16T17:42:28.063Z",
+    "end": "2021-05-16T17:42:37.129Z",
+    "duration": 9066,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d864bf6b-4c66-40f2-932e-fa1e44e8d924",
+      "title": "",
+      "fullFile": "cypress\\integration\\SecondTestCase.spec.js",
+      "file": "cypress\\integration\\SecondTestCase.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cab375f8-7832-4a2d-86e9-6cb7c0cbde4d",
+          "title": "Check24 Demo App Automation ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Executing Test Automation Suit ",
+              "fullTitle": "Check24 Demo App Automation  Executing Test Automation Suit ",
+              "timedOut": null,
+              "duration": 7817,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('example').then(function (data) {\n  basePage.NullMoney(data.NullValue);\n});\nbasePage.UnavailableDuration();",
+              "err": {},
+              "uuid": "fb4b3abf-11e9-4454-a435-f2f344e09b04",
+              "parentUUID": "cab375f8-7832-4a2d-86e9-6cb7c0cbde4d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fb4b3abf-11e9-4454-a435-f2f344e09b04"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7817,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quite": true,
+          "overwrite": false,
+          "html": true,
+          "json": true
+        }
+      },
+      "version": "5.2.0"
+    }
+  }
+}

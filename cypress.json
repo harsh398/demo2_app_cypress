@@ -1,0 +1,17 @@
+{
+    "watchForFileChanges":false,
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": true
+        }
+    },
+      "viewportWidth": 1280,
+      "viewportHeight": 1000
+}
